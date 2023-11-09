@@ -1,0 +1,23 @@
+:root{
+    --primary: white;
+    --complimentary: black;
+
+    --start-colour: green;
+    --stop-colour: red;
+    --reset-colour: gray; 
+}
+
+#start{
+    color: var(--start-colour);
+    border-color: var(--start-colour);
+}
+
+#reset{
+    color: var(--reset-colour);
+    border-color: var(--reset-colour);
+}
+
+#stop{
+    color: var(--stop-colour);
+    border-color: var(--stop-colour);
+}
